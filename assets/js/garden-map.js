@@ -11,9 +11,9 @@
 
     (function($) {
         "use strict";
-        var locations=[ ['<div class="infobox"><h3 class="title"><a href="#">OUR HOLLAND OFFICE</a></h3><span>NEW YORK CITY 2045 / 65</span><span>+90 555 666 77 88</span></div>',
-        52.370216,
-        4.895168,
+        var locations=[ ['<div class="infobox"><h3 class="title"><a href="#">OUR OFFICE</a></h3><span>HO CHI MINH CITY</span><span>+90 555 666 77 88</span></div>',
+        10.843945,
+        106.650146,
         2]];
         var map=new google.maps.Map(document.getElementById('map'), {
             zoom: 12, scrollwheel: false, navigationControl: true, mapTypeControl: false, scaleControl: false, draggable: true, styles: [
@@ -95,7 +95,7 @@
             }
         ]
     }
-], center: new google.maps.LatLng(52.370216, 4.895168), mapTypeId: google.maps.MapTypeId.ROADMAP
+], center: new google.maps.LatLng(10.843945, 106.650146), mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         
         );
