@@ -1,1 +1,58 @@
 theme: jekyll-theme-minimal
+
+title: Nấm lùn mặc đẹp
+
+description: Nấm lùn mặc đẹp
+
+name: Nấm lùn mặc đẹp
+
+email: dotrananhduc117@gmail.com
+
+baseurl: ""
+
+url: "https://www.namlunmacdep.com"
+
+google_analytics: UA-195355610-1
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github: 
+  instagram:
+  linkedin:
+  pinterest:
+  rss: 
+  twitter: jekyllrb
+  stackoverflow: 
+  youtube: 
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
+include: ['_pages']
+
+timezone: Asia/Ho_Chi_Minh
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
+plugin:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+permalink: /blog/:title/
