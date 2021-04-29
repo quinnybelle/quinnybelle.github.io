@@ -3,7 +3,7 @@ layout: post
 title: "20 cách phối đồ cho nàng chân ngắn ngực lép"
 excerpt: "Làm sao để mặc trang phục cho người ngực phẳng được tôn dáng và tự tin hơn?"
 image: /assets/images/bai-viet-6.png
-category: 'Body type'
+category: 'Phối đồ'
 date: '18 Apr 2021'
 author: 'Quinny'
 tags: ['Mặc áo có nơ', 'Áo có thun ở eo', 'Áo cọc tay cổ cao']
