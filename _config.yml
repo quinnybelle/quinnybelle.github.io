@@ -55,7 +55,7 @@ plugin:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-paginate: 10
-paginate_path: "/page:num/"
+paginate: 5
+paginate_path: "/blogs/page:num/"
 
-permalink: /:title/
+permalink: /blogs/:title/
