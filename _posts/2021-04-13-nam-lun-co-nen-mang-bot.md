@@ -6,7 +6,7 @@ image: /assets/images/bai-viet-1.png
 category: 'Phối đồ'
 date: '13 Apr 2021'
 author: 'Quinny'
-tags: []
+tags: ['Bốt cao ngang đùi', 'Bốt ngang cổ chân cao gót', 'Bốt tất', 'Bốt cao gót quai mảnh', 'Bốt lông']
 ---
 
 <div class="blog-content">
