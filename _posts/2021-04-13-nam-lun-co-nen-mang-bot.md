@@ -5,6 +5,7 @@ excerpt: "Muốn mang bốt lắm nhưng không dám thử vì sợ bản thân 
 image: /assets/images/bai-viet-1.png
 category: 'Phối đồ'
 date: '13 Apr 2021'
+author: 'Quinny'
 tags: []
 ---
 
