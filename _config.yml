@@ -52,25 +52,25 @@ exclude:
 collections:
   pagehackdang:
     output: true
-    permalink: /hack-dang/:title
+    permalink: /hack-dang/:name
   pagephoido:
     output: true
-    permalink: /phoi-do/:title
+    permalink: /phoi-do/:name
   pagebodytype:
     output: true
-    permalink: /body-type/:title
+    permalink: /body-type/:name
   pagemactheodip:
     output: true
-    permalink: /mac-theo-dip/:title
+    permalink: /mac-theo-dip/:name
   pagemactheostyle:
     output: true
-    permalink: /mac-theo-style/:title
+    permalink: /mac-theo-style/:name
   pagechupanh:
     output: true
-    permalink: /chup-anh/:title
+    permalink: /chup-anh/:name
   pageclub:
     output: true
-    permalink: /club1m5/:title
+    permalink: /club1m5/:name
 
 plugin:
   - jekyll-paginate
