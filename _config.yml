@@ -52,25 +52,18 @@ exclude:
 collections:
   pagehackdang:
     output: true
-    sort_by: date
   pagephoido:
     output: true
-    sort_by: date
   pagebodytype:
     output: true
-    sort_by: date
   pagemactheodip:
     output: true
-    sort_by: date
   pagemactheostyle:
     output: true
-    sort_by: date
   pagechupanh:
     output: true
-    sort_by: date
   pageclub:
     output: true
-    sort_by: date
 
 plugin:
   - jekyll-paginate
