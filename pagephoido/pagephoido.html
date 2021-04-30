@@ -10,24 +10,24 @@ permalink: /phoido/
 			<div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
 				<div class="page-wrapper">
 					<div class="blog-list clearfix">
-						{% for phoido in site.pagephoido reversed %}
+						{% for collectitem in site.pagephoido reversed %}
 							<div class="blog-box row">
 								<div class="col-md-4">
 									<div class="post-media">
-										<a href="{{ phoido.url }}" title="">
-											<img src="{{ phoido.image }}" alt="" class="img-fluid">
+										<a href="{{ collectitem.url }}" title="">
+											<img src="{{ collectitem.image }}" alt="" class="img-fluid">
 											<div class="hovereffect"></div>
 										</a>
 									</div><!-- end media -->
 								</div><!-- end col -->
 
 								<div class="blog-meta big-meta col-md-8">
-									<span class="bg-aqua"><a href="{{ phoido.url }}" title="">{{ phoido.category }}</a></span>
-									<h4><a href="{{ phoido.url }}" title="">{{ phoido.title }}</a></h4>
-									<p>{{ phoido.excerpt }}</p>
+									<span class="bg-aqua"><a href="{{ collectitem.url }}" title="">{{ collectitem.category }}</a></span>
+									<h4><a href="{{ collectitem.url }}" title="">{{ collectitem.title }}</a></h4>
+									<p>{{ collectitem.excerpt }}</p>
 									<small><a href="#" title=""><i class="fa fa-eye"></i>1887</a></small>
-									<small><a href="#" title="">{{ phoido.date }}</a></small>
-									<small><a href="#" title="">by {{ phoido.author }}</a></small>
+									<small><a href="#" title="">{{ collectitem.date }}</a></small>
+									<small><a href="#" title="">by {{ collectitem.author }}</a></small>
 								</div><!-- end meta -->
 							</div><!-- end blog-box -->
 
