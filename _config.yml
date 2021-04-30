@@ -56,10 +56,5 @@ plugin:
   - jekyll-seo-tag
 
 paginate: 5
-pagination: 
-  - paginate:
-      path: /blogs/page:num/
-      per_page: 3
-  - paginate:
-      path: /page:num/
-      per_page: 4
+paginate_path: "/page:num/"
+permalink: /:title/
