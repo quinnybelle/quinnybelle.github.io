@@ -55,7 +55,7 @@ plugin:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-paginate: 4
+paginate: 5
 paginate_path: "/blogs/page:num/"
 
 permalink: /blogs/:title/
