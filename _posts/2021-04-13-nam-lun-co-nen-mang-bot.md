@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Nấm lùn có nên mang bốt?"
+title: "Nấm lùn có nên mang bốt"
 excerpt: "Muốn mang bốt lắm nhưng không dám thử vì sợ bản thân trông thấp bé hơn? Với những nấm lùn như chúng mình, mua bốt để đi thật đắn đo. Bốt cổ cao hay bốt cổ thấp, đi bốt thì nên mặc gì mới hợp?"
 image: /assets/images/bai-viet-1.png
 category: 'Phối đồ'
