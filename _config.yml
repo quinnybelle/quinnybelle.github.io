@@ -49,6 +49,22 @@ exclude:
   - README.md
   - CNAME
 
+collections:
+  pagehackdang:
+    output: true
+  pagephoido:
+    output: true
+  pagebodytype:
+    output: true
+  pagemactheodip:
+    output: true
+  pagemactheostyle:
+    output: true
+  pagechupanh:
+    output: true
+  pageclub:
+    output: true
+
 plugin:
   - jekyll-paginate
   - jekyll-feed
