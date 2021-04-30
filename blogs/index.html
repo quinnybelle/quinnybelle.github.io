@@ -27,7 +27,30 @@ permalink: /
             <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                 <div class="page-wrapper">
                     <div class="blog-list clearfix">
-                        
+                        {% for post in paginator.posts %}
+							<div class="blog-box row">
+								<div class="col-md-4">
+									<div class="post-media">
+										<a href="{{ post.url }}" title="">
+											<img src="{{ post.image }}" alt="" class="img-fluid">
+											<div class="hovereffect"></div>
+										</a>
+									</div><!-- end media -->
+								</div><!-- end col -->
+
+								<div class="blog-meta big-meta col-md-8">
+									<span class="bg-aqua"><a href="{{ post.url }}" title="">{{ post.category }}</a></span>
+									<h4><a href="{{ post.url }}" title="">{{ post.title }}</a></h4>
+									<p>{{ post.excerpt }}</p>
+									<small><a href="#" title=""><i class="fa fa-eye"></i>1887</a></small>
+									<small><a href="#" title="">{{ post.date }}</a></small>
+									<small><a href="#" title="">by {{ post.author }}</a></small>
+								</div><!-- end meta -->
+							</div><!-- end blog-box -->
+
+							<hr class="invis">
+
+						{% endfor %}
                     </div><!-- end blog-list -->
                 </div><!-- end page-wrapper -->
 
