@@ -55,7 +55,7 @@ permalink: /phoido/
 						<!-- Pagination links -->
                         {% for c in site.pagephoido %}
                             {% if c.title == page.title %}
-                            {% assign thisPost = c %}
+                                {% assign thisPost = c %}
                             {% if forloop.index == 1 %}
                                 {% assign prevflag = 0 %}
                                 {% assign nextflag = 1 %}
@@ -82,16 +82,16 @@ permalink: /phoido/
                         {% if nextflag == 1 %}
                             {% for c in site.pagephoido %}
                                 {% if foundPost == 1 %}
-                                {% assign getNext = 1 %}
+                                    {% assign getNext = 1 %}
                                 {% endif %}
                                 {% if c.title == page.title %}
-                                {% assign foundPost = 1 %}
+                                    {% assign foundPost = 1 %}
                                 {% endif %}
                                 {% if getNext == 1%}
-                                {% assign nextPost = c %}
-                                {% assign page.next = c %}
-                                {% assign foundPost = 0 %}
-                                {% assign getNext = 0 %}
+                                    {% assign nextPost = c %}
+                                    {% assign page.next = c %}
+                                    {% assign foundPost = 0 %}
+                                    {% assign getNext = 0 %}
                                 {% endif %}
                             {% endfor %}
                         {% endif %}
