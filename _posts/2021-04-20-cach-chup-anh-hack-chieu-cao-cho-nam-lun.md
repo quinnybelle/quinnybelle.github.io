@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cách chụp ảnh hack chiều cao cho nấm lùn"
-excerpt: "Nếu bạn là một nấm lùn chính hiệu, với thân hình 3 mét bẻ đôi, thì mình chắc chắn bạn cũng sẽ rất vất vả trong việc chụp ảnh đẹp. Vào thời gian trước mình thực sự rất sợ máy ảnh, mình ghét bị xuất hiện trong mọi khung hình. Trong một buổi đi chơi, mình sẽ dành hàng tiếng đồng hồ để lựa chọn trang phục phù hợp, mình rất tự tin và hạnh phúc về ngoại hình của mình. Nhưng nếu ai đó đề nghị chụp hình thì mình mất tự tin hẳn. Thân hình ngắn ngủn và mập mạp là điều khiến mình không tự tin."
+excerpt: "Nếu bạn là một nấm lùn chính hiệu, với thân hình 3 mét bẻ đôi, thì mình chắc chắn bạn cũng sẽ rất vất vả trong việc chụp ảnh đẹp. Vào thời gian trước mình thực sự rất sợ máy ảnh, mình ghét bị xuất hiện trong mọi khung hình."
 image: /assets/images/bai-viet-8.png
 category: 'Chụp ảnh'
 date: '20 Apr 2021'

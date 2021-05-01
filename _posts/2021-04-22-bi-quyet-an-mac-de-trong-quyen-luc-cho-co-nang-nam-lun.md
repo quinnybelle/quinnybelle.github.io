@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "8 bí quyết ăn mặc để trông quyền lực cho cô nàng nấm lùn"
-excerpt: "Bạn có đang cao 1m5 không? Bạn có bao giờ cảm thấy bị đánh giá thấp trong nghề nghiệp chỉ vì chiều cao của mình? Bạn có từng bị mất cơ hội thăng tiến chỉ vì không đủ “quyền lực” bằng đồng nghiệp cao ráo? Nếu có, thì bạn không đơn độc, vì nhiều bạn gái thấp bé thường than phiền rằng họ không thể trông mạnh mẽ như những người bạn cao ráo của mình được. Là một nấm lùn chính hiệu và mình cũng đã trải qua cảm giác như thế, vì vậy mình muốn chia sẻ với các bạn cách mình đã làm để xóa bỏ đi cảm giác đó."
+excerpt: "Bạn có đang cao 1m5 không? Bạn có bao giờ cảm thấy bị đánh giá thấp trong nghề nghiệp chỉ vì chiều cao của mình? Bạn có từng bị mất cơ hội thăng tiến chỉ vì không đủ “quyền lực” bằng đồng nghiệp cao ráo?"
 image: /assets/images/bai-viet-10.png
 category: 'Mặc theo style'
 date: '22 Apr 2021'
