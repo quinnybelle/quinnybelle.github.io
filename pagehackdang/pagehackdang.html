@@ -4,139 +4,156 @@ title: Hack dáng
 permalink: /hackdang/
 ---
 
+<div class="page-title wb">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <h2><i class="fa fa-leaf bg-green"></i>Hack dáng</h2>
+            </div><!-- end col -->
+            <div class="col-lg-4 col-md-4 col-sm-12 hidden-xs-down hidden-sm-down">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Blog</a></li>
+                    <li class="breadcrumb-item active">Hack dáng</li>
+                </ol>
+            </div><!-- end col -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</div><!-- end page-title -->
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
-            <div class="page-wrapper">
-                <div class="blog-list clearfix">
-                    {% for collectitem in site.pagehackdang reversed %}
-                        <div class="blog-box row">
-                            <div class="col-md-4">
-                                <div class="post-media">
-                                    <a href="{{ collectitem.url }}" title="">
-                                        <img src="{{ collectitem.image }}" alt="" class="img-fluid">
-                                        <div class="hovereffect"></div>
-                                    </a>
-                                </div><!-- end media -->
+<section class="section wb">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                <div class="page-wrapper">
+                    <div class="blog-list clearfix">
+                        {% for collectitem in site.pagehackdang reversed %}
+                            <div class="blog-box row">
+                                <div class="col-md-4">
+                                    <div class="post-media">
+                                        <a href="{{ collectitem.url }}" title="">
+                                            <img src="{{ collectitem.image }}" alt="" class="img-fluid">
+                                            <div class="hovereffect"></div>
+                                        </a>
+                                    </div><!-- end media -->
+                                </div><!-- end col -->
+
+                                <div class="blog-meta big-meta col-md-8">
+                                    <span class="bg-aqua"><a href="{{ collectitem.url }}" title="">{{ collectitem.category }}</a></span>
+                                    <h4><a href="{{ collectitem.url }}" title="">{{ collectitem.title }}</a></h4>
+                                    <p>{{ collectitem.excerpt }}</p>
+                                    <small><a href="#" title=""><i class="fa fa-eye"></i>1887</a></small>
+                                    <small><a href="#" title="">{{ collectitem.date }}</a></small>
+                                    <small><a href="#" title="">by {{ collectitem.author }}</a></small>
+                                </div><!-- end meta -->
+                            </div><!-- end blog-box -->
+
+                            <hr class="invis">
+                        {% endfor %}
+
+                        <div class="row">
+                            <div class="col-lg-10 offset-lg-1">
+                                <div class="banner-spot clearfix">
+                                    <div class="banner-img">
+                                        <img src="{{ site.baseurl }}/assets/images/ads_2.png" alt="" class="img-fluid">
+                                    </div><!-- end banner-img -->
+                                </div><!-- end banner -->
                             </div><!-- end col -->
-
-                            <div class="blog-meta big-meta col-md-8">
-                                <span class="bg-aqua"><a href="{{ collectitem.url }}" title="">{{ collectitem.category }}</a></span>
-                                <h4><a href="{{ collectitem.url }}" title="">{{ collectitem.title }}</a></h4>
-                                <p>{{ collectitem.excerpt }}</p>
-                                <small><a href="#" title=""><i class="fa fa-eye"></i>1887</a></small>
-                                <small><a href="#" title="">{{ collectitem.date }}</a></small>
-                                <small><a href="#" title="">by {{ collectitem.author }}</a></small>
-                            </div><!-- end meta -->
-                        </div><!-- end blog-box -->
+                        </div><!-- end row -->
 
                         <hr class="invis">
-                    {% endfor %}
-
-                    <div class="row">
-                        <div class="col-lg-10 offset-lg-1">
-                            <div class="banner-spot clearfix">
-                                <div class="banner-img">
-                                    <img src="{{ site.baseurl }}/assets/images/ads_2.png" alt="" class="img-fluid">
-                                </div><!-- end banner-img -->
-                            </div><!-- end banner -->
-                        </div><!-- end col -->
-                    </div><!-- end row -->
-
-                    <hr class="invis">
-                </div><!-- end blog-list -->
-            </div><!-- end page-wrapper -->
-
-            <hr class="invis">
-        </div><!-- end col -->
-
-        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-            <div class="sidebar">
-                <div class="widget">
-                    <h2 class="widget-title">Tìm kiếm</h2>
-                    <form class="form-inline search-form">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Tìm kiếm">
-                        </div>
-                        <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
-                    </form>
-                </div><!-- end widget -->
-
-                <div class="widget">
-                    <h2 class="widget-title">Bài viết gần đây</h2>
-                    <div class="blog-list-widget">
-                        <div class="list-group">
-                            <a href="{% post_url 2021-04-23-cach-phoi-do-de-keo-chan-cho-nam-lun %}"
-                                class="list-group-item list-group-item-action flex-column align-items-start">
-                                <div class="w-100 justify-content-between">
-                                    <img src="{{ site.baseurl }}/assets/images/bai-viet-11.png" alt="" class="img-fluid float-left">
-                                    <h5 class="mb-1">Cách phối đồ để kéo chân cho nấm lùn</h5>
-                                    <small>30 Apr, 2021</small>
-                                </div>
-                            </a>
-
-                            <a href="{% post_url 2021-04-22-bi-quyet-an-mac-de-trong-quyen-luc-cho-co-nang-nam-lun %}"
-                                class="list-group-item list-group-item-action flex-column align-items-start">
-                                <div class="w-100 justify-content-between">
-                                    <img src="{{ site.baseurl }}/assets/images/bai-viet-10.png" alt="" class="img-fluid float-left">
-                                    <h5 class="mb-1">8 bí quyết ăn mặc để trông quyền lực cho cô nàng nấm lùn</h5>
-                                    <small>1 May, 2021</small>
-                                </div>
-                            </a>
-
-                            <a href="{% post_url 2021-04-21-cach-mac-quan-jeans-lam-mong-thon-gon-hon %}"
-                                class="list-group-item list-group-item-action flex-column align-items-start">
-                                <div class="w-100 last-item justify-content-between">
-                                    <img src="{{ site.baseurl }}/assets/images/bai-viet-9.png" alt="" class="img-fluid float-left">
-                                    <h5 class="mb-1">Cách mặc quần jean để làm mông thon gọn hơn</h5>
-                                    <small>1 May, 2021</small>
-                                </div>
-                            </a>
-                        </div>
                     </div><!-- end blog-list -->
-                </div><!-- end widget -->
+                </div><!-- end page-wrapper -->
 
-                <div class="widget">
-                    <h2 class="widget-title">Advertising</h2>
-                    <div class="banner-spot clearfix">
-                        <div class="banner-img">
-                            <img src="{{ site.baseurl }}/assets/images/ads_1.png" alt="" class="img-fluid">
-                        </div><!-- end banner-img -->
-                    </div><!-- end banner -->
-                </div><!-- end widget -->
+                <hr class="invis">
+            </div><!-- end col -->
 
-                <div class="widget">
-                    <h2 class="widget-title">Instagram Feed</h2>
-                    <div class="instagram-wrapper clearfix">
-                        <a href="{% post_url 2021-04-13-nam-lun-co-nen-mang-bot %}"><img src="{{ site.baseurl }}/assets/images/bai-insta-1.png" alt="" class="img-fluid"></a>
-                        <a href="{% post_url 2021-04-13-nam-lun-co-nen-mang-bot %}"><img src="{{ site.baseurl }}/assets/images/bai-insta-2.png" alt="" class="img-fluid"></a>
-                        <a href="{% post_url 2021-04-13-nam-lun-co-nen-mang-bot %}"><img src="{{ site.baseurl }}/assets/images/bai-insta-3.png" alt="" class="img-fluid"></a>
-                        <a href="{% post_url 2021-04-13-nam-lun-co-nen-mang-bot %}"><img src="{{ site.baseurl }}/assets/images/bai-insta-4.png" alt="" class="img-fluid"></a>
-                        <a href="{% post_url 2021-04-13-nam-lun-co-nen-mang-bot %}"><img src="{{ site.baseurl }}/assets/images/bai-insta-5.png" alt="" class="img-fluid"></a>
-                        <a href="{% post_url 2021-04-14-phoi-do %}"><img src="{{ site.baseurl }}/assets/images/ins_01.png" alt="" class="img-fluid"></a>
-                        <a href="{% post_url 2021-04-14-phoi-do %}"><img src="{{ site.baseurl }}/assets/images/ins_02.png" alt="" class="img-fluid"></a>
-                        <a href="{% post_url 2021-04-14-phoi-do %}"><img src="{{ site.baseurl }}/assets/images/ins_03.png" alt="" class="img-fluid"></a>
-                        <a href="{% post_url 2021-04-14-phoi-do %}"><img src="{{ site.baseurl }}/assets/images/ins_04.png" alt="" class="img-fluid"></a>
-                    </div><!-- end Instagram wrapper -->
-                </div><!-- end widget -->
+            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                <div class="sidebar">
+                    <div class="widget">
+                        <h2 class="widget-title">Tìm kiếm</h2>
+                        <form class="form-inline search-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Tìm kiếm">
+                            </div>
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div><!-- end widget -->
 
-                <div class="widget">
-                    <h2 class="widget-title">Danh Mục</h2>
-                    <div class="link-widget">
-                        <ul>
-                            <li><a href="{% link pagehackdang/pagehackdang.html %}">Hack Dáng <span>(21)</span></a></li>
-                            <li><a href="{% link pagephoido/pagephoido.html %}">Phối Đồ <span>(15)</span></a></li>
-                            <li><a href="{% link pagebodytype/pagebodytype.html %}">Body Type <span>(31)</span></a></li>
-                            <li><a href="{% link pagemactheodip/pagemactheodip.html %}">Mặc Theo Dịp <span>(22)</span></a></li>
-                            <li><a href="{% link pagemactheostyle/pagemactheostyle.html %}">Mặc Theo Style <span>(66)</span></a></li>
-                            <li><a href="{% link pagechupanh/pagechupanh.html %}">Chụp Ảnh <span>(66)</span></a></li>
-                            <li><a href="{% link pageclub/pageclub.html %}">1m5 Club <span>(66)</span></a></li>
-                        </ul>
-                    </div><!-- end link-widget -->
-                </div><!-- end widget -->
-            </div><!-- end sidebar -->
-        </div><!-- end col -->
-    </div><!-- end row -->
-</div><!-- end container -->
+                    <div class="widget">
+                        <h2 class="widget-title">Bài viết gần đây</h2>
+                        <div class="blog-list-widget">
+                            <div class="list-group">
+                                <a href="{% post_url 2021-04-23-cach-phoi-do-de-keo-chan-cho-nam-lun %}"
+                                    class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="w-100 justify-content-between">
+                                        <img src="{{ site.baseurl }}/assets/images/bai-viet-11.png" alt="" class="img-fluid float-left">
+                                        <h5 class="mb-1">Cách phối đồ để kéo chân cho nấm lùn</h5>
+                                        <small>30 Apr, 2021</small>
+                                    </div>
+                                </a>
+
+                                <a href="{% post_url 2021-04-22-bi-quyet-an-mac-de-trong-quyen-luc-cho-co-nang-nam-lun %}"
+                                    class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="w-100 justify-content-between">
+                                        <img src="{{ site.baseurl }}/assets/images/bai-viet-10.png" alt="" class="img-fluid float-left">
+                                        <h5 class="mb-1">8 bí quyết ăn mặc để trông quyền lực cho cô nàng nấm lùn</h5>
+                                        <small>1 May, 2021</small>
+                                    </div>
+                                </a>
+
+                                <a href="{% post_url 2021-04-21-cach-mac-quan-jeans-lam-mong-thon-gon-hon %}"
+                                    class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="w-100 last-item justify-content-between">
+                                        <img src="{{ site.baseurl }}/assets/images/bai-viet-9.png" alt="" class="img-fluid float-left">
+                                        <h5 class="mb-1">Cách mặc quần jean để làm mông thon gọn hơn</h5>
+                                        <small>1 May, 2021</small>
+                                    </div>
+                                </a>
+                            </div>
+                        </div><!-- end blog-list -->
+                    </div><!-- end widget -->
+
+                    <div class="widget">
+                        <h2 class="widget-title">Advertising</h2>
+                        <div class="banner-spot clearfix">
+                            <div class="banner-img">
+                                <img src="{{ site.baseurl }}/assets/images/ads_1.png" alt="" class="img-fluid">
+                            </div><!-- end banner-img -->
+                        </div><!-- end banner -->
+                    </div><!-- end widget -->
+
+                    <div class="widget">
+                        <h2 class="widget-title">Instagram Feed</h2>
+                        <div class="instagram-wrapper clearfix">
+                            <a href="{% post_url 2021-04-13-nam-lun-co-nen-mang-bot %}"><img src="{{ site.baseurl }}/assets/images/bai-insta-1.png" alt="" class="img-fluid"></a>
+                            <a href="{% post_url 2021-04-13-nam-lun-co-nen-mang-bot %}"><img src="{{ site.baseurl }}/assets/images/bai-insta-2.png" alt="" class="img-fluid"></a>
+                            <a href="{% post_url 2021-04-13-nam-lun-co-nen-mang-bot %}"><img src="{{ site.baseurl }}/assets/images/bai-insta-3.png" alt="" class="img-fluid"></a>
+                            <a href="{% post_url 2021-04-13-nam-lun-co-nen-mang-bot %}"><img src="{{ site.baseurl }}/assets/images/bai-insta-4.png" alt="" class="img-fluid"></a>
+                            <a href="{% post_url 2021-04-13-nam-lun-co-nen-mang-bot %}"><img src="{{ site.baseurl }}/assets/images/bai-insta-5.png" alt="" class="img-fluid"></a>
+                            <a href="{% post_url 2021-04-14-phoi-do %}"><img src="{{ site.baseurl }}/assets/images/ins_01.png" alt="" class="img-fluid"></a>
+                            <a href="{% post_url 2021-04-14-phoi-do %}"><img src="{{ site.baseurl }}/assets/images/ins_02.png" alt="" class="img-fluid"></a>
+                            <a href="{% post_url 2021-04-14-phoi-do %}"><img src="{{ site.baseurl }}/assets/images/ins_03.png" alt="" class="img-fluid"></a>
+                            <a href="{% post_url 2021-04-14-phoi-do %}"><img src="{{ site.baseurl }}/assets/images/ins_04.png" alt="" class="img-fluid"></a>
+                        </div><!-- end Instagram wrapper -->
+                    </div><!-- end widget -->
+
+                    <div class="widget">
+                        <h2 class="widget-title">Danh Mục</h2>
+                        <div class="link-widget">
+                            <ul>
+                                <li><a href="{% link pagehackdang/pagehackdang.html %}">Hack Dáng <span>(21)</span></a></li>
+                                <li><a href="{% link pagephoido/pagephoido.html %}">Phối Đồ <span>(15)</span></a></li>
+                                <li><a href="{% link pagebodytype/pagebodytype.html %}">Body Type <span>(31)</span></a></li>
+                                <li><a href="{% link pagemactheodip/pagemactheodip.html %}">Mặc Theo Dịp <span>(22)</span></a></li>
+                                <li><a href="{% link pagemactheostyle/pagemactheostyle.html %}">Mặc Theo Style <span>(66)</span></a></li>
+                                <li><a href="{% link pagechupanh/pagechupanh.html %}">Chụp Ảnh <span>(66)</span></a></li>
+                                <li><a href="{% link pageclub/pageclub.html %}">1m5 Club <span>(66)</span></a></li>
+                            </ul>
+                        </div><!-- end link-widget -->
+                    </div><!-- end widget -->
+                </div><!-- end sidebar -->
+            </div><!-- end col -->
+        </div><!-- end row -->
+    </div><!-- end container -->
 </section>
